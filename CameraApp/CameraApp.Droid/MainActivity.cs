@@ -35,7 +35,7 @@ namespace CameraApp.Droid
                     StartActivityForResult(intent,0);
                     
                 };
-            app.Update(file.Path);
+           
 
             var o = Xamarin.Forms.Application.Current as App;
             if (o != null)
